@@ -1,7 +1,7 @@
 export const TYPES = {
-  SET_NOTIFICATIONS: 'SET_NOTIFICATIONS'
+  SET_EXAMPLE_VALUE: 'SET_EXAMPLE_VALUE'
 }
 
 export const actions = {
-  setNotifications: (bool) => ({ type: TYPES.SET_NOTIFICATIONS, bool })
+  setExampleValue: (bool) => ({ type: TYPES.SET_EXAMPLE_VALUE, bool })
 }

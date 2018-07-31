@@ -1,5 +1,12 @@
 import React, { Component } from 'react';
+import connect from 'redux-connect-decorator'
+import { actions } from './store/actions'
 
+@connect(state => ({ 
+  setExampleValue: state.exampleValue
+}), { 
+  actions,
+})
 class App extends Component {
   render() {
     return (
