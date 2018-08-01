@@ -3,5 +3,5 @@ export const TYPES = {
 }
 
 export const actions = {
-  setExampleValue: (bool) => ({ type: TYPES.SET_EXAMPLE_VALUE, bool })
+  setExampleValue: (text) => ({ type: TYPES.SET_EXAMPLE_VALUE, text })
 }

@@ -1,15 +1,15 @@
 import { TYPES } from './actions'
 
 const initialStates = {
-  settings: {
-    example_value: true
+  testGroup: {
+    exampleValue: 'test'
   }
 }
 
-export const settings = (state = initialStates.settings, action) => {
+export const testGroup = (state = initialStates.testGroup, action) => {
   switch (action.type) {
     case TYPES.SET_EXAMPLE_VALUE:
-      return Object.assign({}, state, { exampleValue: action.bool })
+      return Object.assign({}, state, { exampleValue: action.text })
     default:
       return state
   }

@@ -1,8 +1,8 @@
 import { createStore, combineReducers } from 'redux'
-import { settings } from './reducers'
+import { testGroup } from './reducers'
 
 const rootReducer = combineReducers({
-  settings
+  testGroup
 })
 
 export default createStore(rootReducer)
