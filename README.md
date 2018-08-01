@@ -6,3 +6,5 @@ Includes:
 - React Router
 - Webpack
 - Babel
+- Nodemon
+- Concurrency
