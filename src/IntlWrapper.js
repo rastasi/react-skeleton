@@ -13,7 +13,6 @@ const messages = {
 }))
 class IntlWrapper extends Component {
   render() {
-    console.log(messages[this.props.locale]);
     return (
       <IntlProvider
         key={this.props.locale}
