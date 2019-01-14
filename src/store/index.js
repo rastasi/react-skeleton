@@ -1,5 +1,5 @@
-import { createStore, combineReducers } from "redux";
-import { testGroup, localeGroup } from "./reducers";
+import { createStore, combineReducers } from 'redux';
+import { testGroup, localeGroup } from './reducers';
 
 const rootReducer = combineReducers({
   testGroup,

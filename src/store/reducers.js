@@ -1,11 +1,11 @@
-import { TYPES } from "./actions";
+import { TYPES } from './actions';
 
 const initialStates = {
   testGroup: {
-    exampleValue: "test"
+    exampleValue: 'test'
   },
   localeGroup: {
-    locale: "hu"
+    locale: 'hu'
   }
 };
 

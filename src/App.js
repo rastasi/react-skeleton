@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import connect from "redux-connect-decorator";
-import { BrowserRouter, Route } from "react-router-dom";
+import React, { Component } from 'react';
+import connect from 'redux-connect-decorator';
+import { BrowserRouter, Route } from 'react-router-dom';
 
-import { actions } from "./store/actions";
-import Layout from "./Layout";
+import { actions } from './store/actions';
+import Layout from './Layout';
 
 @connect(
   state => ({

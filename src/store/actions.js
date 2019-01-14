@@ -1,6 +1,6 @@
 export const TYPES = {
-  SET_EXAMPLE_VALUE: "SET_EXAMPLE_VALUE",
-  SET_LOCALE: "SET_LOCALE"
+  SET_EXAMPLE_VALUE: 'SET_EXAMPLE_VALUE',
+  SET_LOCALE: 'SET_LOCALE'
 };
 
 export const actions = {
