@@ -1,8 +1,9 @@
-import { createStore, combineReducers } from 'redux'
-import { testGroup } from './reducers'
+import { createStore, combineReducers } from 'redux';
+import { testGroup, localeGroup } from './reducers';
 
 const rootReducer = combineReducers({
-  testGroup
-})
+  testGroup,
+  localeGroup
+});
 
-export default createStore(rootReducer)
+export default createStore(rootReducer);

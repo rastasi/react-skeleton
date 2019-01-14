@@ -1,21 +1,24 @@
 import React, { Component } from 'react';
-import connect from 'redux-connect-decorator'
-import { BrowserRouter, Route } from 'react-router-dom'
-import Layout from './Layout';
-import {actions} from './store/actions';
+import connect from 'redux-connect-decorator';
+import { BrowserRouter, Route } from 'react-router-dom';
 
-@connect(state => ({
-  exampleValue: state.testGroup.exampleValue
-}), {
-  setExampleValue: actions.setExampleValue
-})
+import { actions } from './store/actions';
+import Layout from './Layout';
+
+@connect(
+  state => ({
+    exampleValue: state.testGroup.exampleValue
+  }),
+  {
+    setExampleValue: actions.setExampleValue
+  }
+)
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <Layout>
-          {/* <Route path='/test' component={} /> */}
-        </Layout>
+        {/* <Route path='/test' component={} /> */}
+        <Layout />
       </BrowserRouter>
     );
   }
