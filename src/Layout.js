@@ -5,7 +5,7 @@ import LanguageSelector from './layout/LanguageSelector';
 class Layout extends Component {
   render () {
     return (
-      <div className='App'>
+      <div className='app'>
         <header className='header'>
           <LanguageSelector />
           <h1 className='title'>{i18n.t('main.helloWorld')}</h1>

@@ -4,6 +4,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 import { actions } from './store/actions';
 import Layout from './Layout';
+import Home from './pages/Home';
 
 @connect(
   state => ({
@@ -17,8 +18,9 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        {/* <Route path='/test' component={} /> */}
-        <Layout />
+        <Layout>
+          <Route exact path='/' component={Home} />
+        </Layout>
       </BrowserRouter>
     );
   }
