@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { FormattedMessage } from 'react-intl';
 class Layout extends Component {
-  render() {
+  render () {
     return (
       <div className='App'>
         <header className='header'>
@@ -11,7 +11,7 @@ class Layout extends Component {
           </h1>
         </header>
         {this.props.children}
-        <footer>Copyright 2018</footer>
+        <footer>Copyright 2019</footer>
       </div>
     );
   }
