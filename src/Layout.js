@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import { FormattedMessage } from 'react-intl';
+import i18n from './i18n';
+import LanguageSelector from './layout/LanguageSelector';
+
 class Layout extends Component {
   render () {
     return (
       <div className='App'>
         <header className='header'>
-          <h1 className='title'>
-            {' '}
-            <FormattedMessage id='react' />
-          </h1>
+          <LanguageSelector />
+          <h1 className='title'>{i18n.t('main.helloWorld')}</h1>
         </header>
         {this.props.children}
         <footer>Copyright 2019</footer>

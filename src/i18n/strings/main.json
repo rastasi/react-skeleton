@@ -1,0 +1,8 @@
+{
+  "main": {
+    "helloWorld": {
+      "en": "Hello World!",
+      "hu": "Hello Világ!"
+    }
+  }
+}
