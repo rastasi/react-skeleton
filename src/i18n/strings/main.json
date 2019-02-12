@@ -3,6 +3,10 @@
     "helloWorld": {
       "en": "Hello World!",
       "hu": "Hello Világ!"
+    },
+    "language": {
+      "en": "Language",
+      "hu": "Nyelv"
     }
   }
 }
